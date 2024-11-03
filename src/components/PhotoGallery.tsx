@@ -9,24 +9,13 @@ export default function PhotoGallery() {
       url: "https://i.ibb.co/GWGh2SZ/IMG-2798.png",
     },
     {
-      url: "https://i.ibb.co/QdNgZ4q/example-image.png",    
+      url: "https://i.ibb.co/q93z4SM/Screenshot-2024-11-01-180443.png",    
     },
     {
       url: "https://i.ibb.co/Rj9jV3N/IMG-2801.png",
     },
     {
       url: "https://i.ibb.co/7bnDXVT/IMG-2802.png",
-    },
-    {
-      url: "https://i.ibb.co/4f3Mz3Y/image.png",
-    },
-    {
-      url: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80",
-      caption: "Workshop Session"
-    },
-    {
-      url: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80",
-      caption: "Award Ceremony"
     }
   ];
 
@@ -74,12 +63,12 @@ export default function PhotoGallery() {
                 <div className="relative aspect-video rounded-xl overflow-hidden">
                   <img 
                     src={image.url}
-                    alt={image.caption}
+                    // alt={image.caption}
                     className="w-full h-full object-cover transform group-hover/item:scale-105 transition duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover/item:opacity-100 transition-opacity">
                     <p className="absolute bottom-4 left-4 text-white font-medium">
-                      {image.caption}
+                      {/* {image.caption} */}
                     </p>
                   </div>
                 </div>

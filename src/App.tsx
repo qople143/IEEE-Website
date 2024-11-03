@@ -22,7 +22,7 @@ function App() {
             {[
               {
                 icon: <Trophy className="w-8 h-8 text-yellow-400" />,
-                title: "$50,000 in Prizes",
+                title: "20k in Prizes",
                 description: "Compete for amazing prizes and opportunities"
               },
               {
