@@ -6,20 +6,19 @@ export default function PhotoGallery() {
 
   const images = [
     {
-      url: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&q=80",
-      caption: "Opening Ceremony"
+      url: "https://i.ibb.co/GWGh2SZ/IMG-2798.png",
     },
     {
-      url: "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80",
-      caption: "Team Collaboration"
+      url: "https://i.ibb.co/QdNgZ4q/example-image.png",    
     },
     {
-      url: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80",
-      caption: "Mentorship Session"
+      url: "https://i.ibb.co/Rj9jV3N/IMG-2801.png",
     },
     {
-      url: "https://images.unsplash.com/photo-1515169067868-5387ec356754?auto=format&fit=crop&q=80",
-      caption: "Project Presentation"
+      url: "https://i.ibb.co/7bnDXVT/IMG-2802.png",
+    },
+    {
+      url: "https://i.ibb.co/4f3Mz3Y/image.png",
     },
     {
       url: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80",
@@ -43,14 +42,14 @@ export default function PhotoGallery() {
   };
 
   return (
-    <section className="py-24 bg-gradient-to-b from-purple-900/20 to-black/50">
+    <section className="py-24 bg-gradient-to-b from-teal-500/80 from-teal-700/80 to-black/40">
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-center gap-3 mb-8">
-          <Camera className="w-8 h-8 text-purple-400" />
-          <h2 className="text-4xl font-bold text-center">Hackathon Moments</h2>
+          <Camera className="w-8 h-8 text-white-900" />
+          <h2 className="text-4xl font-bold text-center">CRYPTIC 1.0 AND CRYPTIC 2.0</h2>
         </div>
         <p className="text-xl text-gray-300 text-center max-w-3xl mx-auto mb-16">
-          Relive the excitement and energy from our previous hackathons
+          Relive the excitement and energy from our previous events
         </p>
         
         <div className="relative group">
