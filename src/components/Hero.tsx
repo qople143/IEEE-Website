@@ -17,9 +17,9 @@ export default function Hero() {
       <div className="absolute top-0 w-full py-2 flex justify-around items-center bg-black/10">
       <img src="https://i.ibb.co/fxT19RF/IEEE-white.png" alt="IEEE Logo" className="h-28" /> {/* New logo added */}
       <img src="https://i.ibb.co/xJHWC7h/IEEE-Bangalore-Section-white.png" alt="IEEE Bangalore Section Logo" className="h-28" />
-      <img src="https://i.ibb.co/GVDdMqc/ATRIA-bright.png" alt="ATRIA Logo" className="h-28" />
-    <img src="https://i.ibb.co/RvkNhnY/STB-LOGO-white.png" alt="STB Logo" className="h-28" />
-    <img src="https://i.ibb.co/fS9NbcS/25-Logo-White.png" alt="25 Logo White" className="h-28" /> {/* New logo added */}
+      <img src="https://i.ibb.co/Ptdwwqz/Atria-logo.png" alt="ATRIA Logo" style={{ height: '50px', width: 'auto' }} />    
+      <img src="https://i.ibb.co/RvkNhnY/STB-LOGO-white.png" alt="STB Logo" className="h-28" />
+    <img src="https://i.ibb.co/fS9NbcS/25-Logo-White.png" alt="25 Logo White" className="h-20" /> {/* New logo added */}
 </div>
 
 
